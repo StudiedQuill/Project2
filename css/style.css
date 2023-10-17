@@ -74,3 +74,46 @@ footer{
 a{
   color: #00ff00;  
 }
+
+#elementary h2, #elementary p{
+  color: #ff0000;
+}
+
+#middleSchool h2, #middleSchool p{
+  color: #fff300;
+}
+
+#highSchool h2, #highSchool p{
+  color: #8000ff;
+}
+
+#ContactInfo h2, #ContactInfo p{
+  color: #ff18ff;
+}
+#Education h2, #Education p{
+  color: #1bffff;
+}
+
+#Skills h2, #Skills p{
+color: #d4145a; 
+}
+
+#Work h2, #Work p{
+color: #fbb03b;
+}
+
+#Volunteering h2, #Volunteering p{
+color: #009245;
+}
+
+#Accomplishments h2, #Accomplishments p{
+  color:  #fcee21;
+}
+
+#Naruto h1, #Naruto p{
+  color: orange;
+}
+
+.center{
+  text-align: center;
+}
