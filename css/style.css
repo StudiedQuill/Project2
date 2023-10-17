@@ -2,8 +2,17 @@ body{
   background-color:black;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-  color:white;
+h1, h2{
+  color: white;
+  margin: 0;
+  position: relative;
+  top: 10%
+}
+
+p{
+  color: white;
+  left: 5%;
+  position: relative;
 }
 
 nav{
@@ -11,34 +20,43 @@ nav{
 }  
 
 nav ul{
-  list-style: none;
   background: linear-gradient(to right, #00ff00, #00ffff, #1858ff);
   width: 100%;
   position: fixed;
   margin: 0;
   padding: 0;
   float: left;
+  background-color: black;
+  z-index: 10;
 }
 
 nav ul li{
-float: left;
-width: 33.33%;
+  float: left;
+  width: 33.33%;
 }
 
 nav ul li a{
-  text-decoration: none;
   color: black;
   display: block;
   padding: 25px 10px;
   text-align: center;
   font-size: 1.5em;
+  text-decoration: none;
 }
 
 nav ul li a:hover{
-	color: green;
-	background-color: black;
+  color: green;
+  background-color: black;
 }
 
 .audioWave{
   font-family: 'Audiowide', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+div{
+  padding: 10% 10%;
 }
