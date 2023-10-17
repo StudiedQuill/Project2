@@ -13,6 +13,7 @@ p{
   color: white;
   left: 5%;
   position: relative;
+  font-size: large;
 }
 
 nav{
@@ -59,4 +60,17 @@ li{
 
 div{
   padding: 10% 10%;
+}
+
+footer{
+  width: 50%;
+  border-style:dashed;
+  border-top-color: #00ffff;
+  border-left-color: #00ff00;
+  border-bottom-color: #1858ff;
+  border-right-color: #00ff00;
+}
+
+a{
+  color: #00ff00;  
 }
