@@ -110,10 +110,30 @@ color: #009245;
   color:  #fcee21;
 }
 
-#Naruto h1, #Naruto p{
+#Naruto{
+  display: block;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+#Naruto h1{
+  font-size: 32px;
   color: orange;
+}
+
+#Naruto p{
+  font-size: 18px;
+  color: orange;
+  
 }
 
 .center{
   text-align: center;
+}
+
+img{
+  position: relative;
+  width: 231.4px;
+  left: 75px;
 }
